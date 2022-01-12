@@ -39,7 +39,7 @@ def get_filters():
     list_of_day_of_the_week = ['all','sunday','monday','tuesday','wednesday','thursday','friday','saturday']
     day = ''
     while day not in list_of_day_of_the_week :
-        day = input("Kindly enter the day of the week or enter 'all' for all days  :  ")
+        day = input("Kindly enter any day of the week or enter 'all' for all days  :  ")
 
         if day in list_of_day_of_the_week:
             print("Thats all. Your request will be made available in no time") 
