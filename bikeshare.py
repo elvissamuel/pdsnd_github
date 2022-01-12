@@ -35,7 +35,7 @@ def get_filters():
         if month in list_of_month:
             print("Great!,input the day of your choice") 
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # Recieve user input for day of week (all, monday, tuesday, ... sunday)
     list_of_day_of_the_week = ['all','sunday','monday','tuesday','wednesday','thursday','friday','saturday']
     day = ''
     while day not in list_of_day_of_the_week :
